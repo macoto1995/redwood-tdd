@@ -23,6 +23,6 @@
   },
   "packageManager": "yarn@3.3.0",
   "scripts": {
-    "tdd": "SKIP_DB_PUSH=1 yarn rw test"
+    "tdd": "yarn rw test --db-push false"
   }
 }
